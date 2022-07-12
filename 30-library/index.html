@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="h1">Library</h1>
+    <script src="lib1.js"></script>
+    <script src="lib2.js"></script>
+    <script src="app.js"></script>
+    <!-- 
+        這3個`<script>`沒有建立新的Execution Context，他們也沒有分割程式碼，只是照字面上把他排順序，當index.html執行時，這3份JS全部被拉進去執行，就像合併這3個檔案近同一份檔案裡一樣，所以這3個檔案的內容要保持不能相互衝突。
+     -->
+</body>
+</html>

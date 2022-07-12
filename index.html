@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        /* html, body {
+            margin: 0;
+            height: 200vh;
+            background: linear-gradient(45deg, black, transparent);
+        } */
+
+        html, body {
+            margin: 0;
+            height: 100vh;
+        }
+
+        nav > ul {
+            background: beige;
+            display: flex;
+        }
+
+        ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+
+        ul li {
+            padding: 20px;
+        }
+
+        ul li ul {
+            position: absolute;
+            background: antiquewhite;
+        }
+
+
+
+    </style>
+
+
+    <nav>
+        <ul>
+            <li>Home</li>
+            <li id="menuItem">
+                <div>About US ▽</div>
+                <ul id="menuChild" hidden>
+                    <li>Story</li>
+                    <li>Member</li>
+                    <li>Shop</li>
+                </ul>
+            </li>
+            <li>Contact</li>
+        </ul>
+    </nav>
+
+    <!-- <button id="btn">Click Me!</button> -->
+    <!-- <input type="text" id="textInput"> -->
+
+    <script src="app.js"></script>
+</body>
+</html>
