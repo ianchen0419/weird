@@ -1,11 +1,9 @@
 ## Big Words
 
 #### Syntax Parser
-
 人讀的JavaScript程式語言翻譯成電腦儲存的函數、變數，這中間的翻譯過程叫做「Syntax parser」。
 
 #### Lexical Environment
-
 程式所在的位置。
 
 ```js
@@ -17,11 +15,10 @@ function hello() {
 上例中的`a`存在於`hello()`之中，所以`a`的Lexical environment就是`hello()`
  
 
-**Execution Context**
-
+#### Execution Context
 管理程式中的數個Lexical environment，決定哪個正在運作。
 
-**Name/Value Pair**
+#### Name/Value Pair
 同一個Name可以被定義多次，但是如果在同一個Context之下，同一個Name只會有一個Value。
 
 **Object**
