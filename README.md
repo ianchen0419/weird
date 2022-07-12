@@ -1,10 +1,10 @@
 ## Big Words
 
-**Syntax Parser**
+#### Syntax Parser
 
 人讀的JavaScript程式語言翻譯成電腦儲存的函數、變數，這中間的翻譯過程叫做「Syntax parser」。
 
-**Lexical Environment**
+#### Lexical Environment
 
 程式所在的位置。
 
